@@ -1,11 +1,11 @@
 import axios from 'axios'
 
 const userReq = axios.create({
-    baseURL: "/api/v1/user"
+    baseURL: "https://react-web-express.herokuapp.com/api/v1/user"
 })
 
 const movieInfoReq = axios.create({
-    baseURL: "/api/v1/movie"
+    baseURL: "https://react-web-express.herokuapp.com/api/v1/movie"
 })
 
 
