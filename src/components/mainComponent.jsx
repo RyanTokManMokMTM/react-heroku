@@ -17,6 +17,7 @@ const MainComponent = (props) =>{
         console.log("test")
         checkUserAuth()
         .then(res => {
+            console.log(res.data.auth)
             if(res.data.auth != userAuth){
                 setUserAuth(res.data.auth)
             }
@@ -29,6 +30,7 @@ const MainComponent = (props) =>{
     },[userAuth])
 
     const onClickAuth=(auth)=> {
+        console.log(auth)
         setUserAuth(auth)
     }
 

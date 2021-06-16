@@ -30,6 +30,7 @@ const Login  = (props)=> {
             .then(res =>{
                 //server will send back some message and state code
                 //according to state code and message to set state
+                console.log("suceess",res.data.success)
                 if(!res.data.success){
                     setMessage(res.data.message)
                     setIsLogin(res.data.success)
