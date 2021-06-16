@@ -23,8 +23,8 @@ const CustionNavBar = (props) =>{
         }
         else{
             return <div>
-            <Button  size="sm" style={{marginRight:"10px"}}><Link to="/login">login</Link></Button> 
-            <Button  size="sm" style={{marginRight:"10px"}}><Link to="/signup">SignUp</Link></Button> 
+            <Button  size="sm" style={{marginRight:"10px"}}><Link to="/login" style={{color:"white"}}>login</Link></Button> 
+            <Button  size="sm" style={{marginRight:"10px"}}><Link to="/signup" style={{color:"white"}}>SignUp</Link></Button> 
             </div>
         }
     }
