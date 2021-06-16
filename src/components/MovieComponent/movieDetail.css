@@ -1,0 +1,7 @@
+.movie_detail {
+    margin-top: 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), var(--img);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
